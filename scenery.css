@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#sky {
+    width: 100vw;
+    height: 70vh;
+    background: linear-gradient(orangered, orange, orangered, orange, orange, orange);
+}
+
+#sunbg {
+    width: 100vw;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% 15% 0% 0%;
+    overflow: hidden;
+    position: relative;
+    top: 40vh;
+    background: linear-gradient(360deg, orange, orangered, orange, orange, orangered);
+}
+
+#sun {
+    width: 30vw;
+    height: 30vw;
+    background: linear-gradient(0deg, yellow, orange, orangered, orange, yellow);
+    border-radius: 50% 50% 0% 0%;
+    position: relative;
+    top: 20vh;
+}
+#sun:hover {
+    background: linear-gradient(orange, orangered, orange);
+}
+
+#land {
+    width: 100vw;
+    height: 30vh;
+    background: linear-gradient(90deg, orangered, orange, yellow, orange, orangered);
+    display: flex;
+}
+
+#sun-shadow {
+    position: relative;
+    top: -2vh;
+    left: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sunShadowClass {
+    background: linear-gradient(0deg, yellow, orange, orangered, orange, yellow);
+    border-radius: 0px 0px 100px 100px;
+    margin: 2px 0px;
+}
+.sunShadowClass:hover {
+    background: linear-gradient(orange, orangered, orange);
+}
+
+#sun-shadow1 {
+    width: 30vw;
+    height: 1vw;
+    position: relative;
+}
+
+#sun-shadow2 {
+    width: 29vw;
+    height: 1vw;
+    position: relative;
+}
+
+#sun-shadow3 {
+    width: 27vw;
+    height: 1vw;
+    position: relative;
+}
+
+#sun-shadow4 {
+    width: 25vw;
+    height: 1.3vw;
+    position: relative;
+}
+
+#sun-shadow5 {
+    width: 22vw;
+    height: 1.2vw;
+    position: relative;
+}
+
+#sun-shadow6 {
+    width: 19vw;
+    height: 1.2vw;
+    position: relative;
+}
+
+#sun-shadow7 {
+    width: 14vw;
+    height: 1.2vw;
+    position: relative;
+}
+
+#left-land {
+    width: 25vw;
+    height: 20vh;
+    background: #000;
+    border-radius: 0% 100% 0% 0%;
+    position: relative;
+    top: 10vh;
+}
+
+.tree-body {
+    background-color: black;
+    position: relative;
+    border-radius: 50% 50% 0% 0%;
+}
+
+#tree-body1 {
+    height: 75vh;
+    width: 2vw;
+    position: relative;
+    left: -50vw;
+    bottom: 60vh;
+    rotate: 5deg;
+}
+
+#tree-body2 {
+    height: 74vh;
+    width: 1.9vw;
+    position: relative;
+    left: -45vw;
+    bottom: 53vh;
+    rotate: 5deg;
+}
+
+#banner {
+    height: 6vh;
+    width: 7vw;
+    background: #000;
+    position: relative;
+    left: -41vw;
+    bottom: 45vh;
+    rotate: 10deg;
+}
+
+.fatti {
+    height: 2px;
+    width: 40px;
+    background: black;
+    position: relative;
+    left: -53vw;
+    margin: 0px 8px;
+}
+
+#fatti1 {
+    bottom: 38.5vh;
+    rotate: -25deg;
+}
+
+#fatti2 {
+    bottom: 37.8vh;
+    rotate: 50deg;
+}
+#right-land {
+    width: 25vw;
+    height: 20vh;
+    background: #000;
+    border-radius: 100% 0% 0% 0%;
+    position: relative;
+    top: 10vh;
+    left: 1vw;
+}
+#dol1 {
+    height: 10px;
+    width: 5px;
+    background-color: black;
+    border-radius: 0% 100% 0% 100%;
+    scale: 4;
+    rotate: -50deg;
+    position: absolute;
+    top: 68vh;
+    left: 85vw;
+}
+#dol2 {
+    height: 10px;
+    width: 5px;
+    background-color: black;
+    border-radius: 0% 100% 0% 100%;
+    scale: 3;
+    rotate: -40deg;
+    position: absolute;
+    top: 69vh;
+    left: 89vw;
+}
+#tail-div{
+    rotate:-108deg;
+    position: relative;
+    top: 9px;
+    left: 2.4px;
+}
+
+.tail {
+    height: 1.1px;
+    width: 3px;
+    background-color: black;
+    position: relative;
+}
+
+#tail1 {
+    border-radius: 0% 100% 0% 100%;
+}
+
+#tail2 {
+    border-radius: 100% 0% 100% 0%;
+}
+.dolphins:hover{
+    opacity: 0;
+}
