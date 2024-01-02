@@ -231,4 +231,5 @@ body {
 }
 .dolphins:hover{
     opacity: 0;
+    cursor: pointer;
 }
